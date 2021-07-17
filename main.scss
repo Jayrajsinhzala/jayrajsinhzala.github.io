@@ -11,6 +11,8 @@ body {
   font-size: 20px;
   height: 100%;
   scroll-behavior: smooth;
+  background-color: black;
+  color: white;
 }
 .main {
   height: 100%;
@@ -62,6 +64,31 @@ body {
     height: 100%;
     width: 77%;
     margin-left: 23%;
+    #home{
+      display: flex;
+      flex-direction: column;
+      img{
+        height: 200px;
+        width: 200px;
+        border-radius: 100px;
+        padding: 20px;
+      }
+    }
+    #projects{
+      justify-content: space-evenly;
+      div{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        height: 400px;
+        width: 400px;
+        border: solid 2px white;
+        padding: 50px;
+        border-radius: 15px;
+        box-shadow: 10px 5px 5px gray;
+      }
+    }
     div {
       height: 100%;
       display: flex;
